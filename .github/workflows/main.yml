@@ -47,14 +47,14 @@ jobs:
           plugin_fortune: yes
 
       # 🌆 GitHub Skyline
-      - uses: lowlighter/metrics@master
-        with:
-          filename: github-skyline.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: tatuan19
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          base: ""
-          plugin_skyline: yes
-          plugin_skyline_year: 2026
-          plugin_skyline_frames: 1
-          plugin_skyline_quality: 0.3
+      # - uses: lowlighter/metrics@master
+      #   with:
+      #     filename: github-skyline.svg
+      #     token: ${{ secrets.METRICS_TOKEN }}
+      #     user: tatuan19
+      #     committer_token: ${{ secrets.GITHUB_TOKEN }}
+      #     base: ""
+      #     plugin_skyline: yes
+      #     plugin_skyline_year: 2026
+      #     plugin_skyline_frames: 1
+      #     plugin_skyline_quality: 0.3
