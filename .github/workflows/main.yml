@@ -22,8 +22,8 @@ jobs:
           plugin_isocalendar_duration: full-year
 
           # 🏆 Achievements
-          plugin_achievements: yes
-          plugin_achievements_threshold: C
+          # plugin_achievements: yes
+          # plugin_achievements_threshold: C
 
           # 🏷️ Most used languages
           plugin_languages: yes
@@ -55,5 +55,5 @@ jobs:
           base: ""
           plugin_skyline: yes
           plugin_skyline_year: 0
-          plugin_skyline_frames: 6
-          plugin_skyline_quality: 1
+          plugin_skyline_frames: 1
+          plugin_skyline_quality: 0.3
